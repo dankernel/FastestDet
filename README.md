@@ -1,4 +1,4 @@
-# :zap:FastestDet:zap:
+# :zap:FastestDet:zap:[![DOI](https://zenodo.org/badge/508635170.svg)](https://zenodo.org/badge/latestdoi/508635170)
 ![image](https://github.com/dog-qiuqiu/FastestDet/blob/main/data/data.png)
 * ***Faster! Stronger! Simpler!***
 * ***It has better single core reasoning performance and simpler feature map post-processing than Yolo-fastest***
@@ -20,9 +20,9 @@ FastestDet|27.8%|512X512|21.51ms|34.62ms|*|0.25M
 * Dynamic positive and negative sample allocation
 # How to use
 ## Dependent installation
-* PiP
+* PiP(Note pytorch CUDA version selection)
   ```
-  pip install -r require.txt
+  pip install -r requirements.txt
   ```
 ## Test
 * Picture test
